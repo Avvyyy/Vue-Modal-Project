@@ -6,11 +6,11 @@
 </template>
 
 <script>
-import myModal from './components/Modal.vue'
+import myModal from './components/myModal'
 export default {
   name: 'App',
   components: { myModal },
-  data(){
+  data() {
     return{
       title: 'My First Vue App :)'
     }
