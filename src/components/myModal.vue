@@ -1,12 +1,13 @@
 <template>
   <div class="backdrop">
     <div class="modal">
+      <h1>Modal Title</h1>
       <p>Modal content</p>
     </div>
   </div>
 </template>
 
-<style>
+<style scoped>
 .modal {
   width: 400px;
   padding: 20px;
@@ -22,4 +23,11 @@
   width: 100%;
   height: 100%;
 }
+
+h1{
+  display: inline-block;
+  padding-bottom: 10px;
+  color: #2a6d63;
+}
+
 </style>
